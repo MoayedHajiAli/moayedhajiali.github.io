@@ -59,7 +59,7 @@
                 font-weight: _font(weight-heading-bold);
                 letter-spacing: _font(kerning-heading);
                 margin-top: 0.5em;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 white-space: nowrap;
             }
         }
@@ -102,7 +102,7 @@
                 line-height: 1;
                 margin: 0 0 0 2em;
                 padding: 0 0 0 2em;
-                text-transform: uppercase;
+                // text-transform: uppercase;
 
                 &:first-child {
                     border-left: 0;

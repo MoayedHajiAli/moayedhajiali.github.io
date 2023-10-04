@@ -9,11 +9,11 @@ const Cell = (props) => (
       >
       <header>
         <h3>
-          <a href={props.data.link}>{props.data.title}</a>
+          <a style={{"text-transform": "none"}} href={props.data.link}>{props.data.title}</a>
           </h3>
         <time className="published">{props.data.date}</time>
         <h4 style={{"display":"inline-block", "float":"left", "font-size":"1.1rem"}}>
-          Relevant keywords: &nbsp;
+          RELEVANT KEYWORDS: &nbsp;
         </h4>
         {
           props.data.relevantSkills.map(item =>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 135 135" style="enable-background:new 0 0 135 135;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#010201;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#010201;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#353535;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#E2E3E3;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#A29896;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#BFC2C3;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#D3D5D6;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#D7D7D7;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#E6E6E6;}
+	.st11{clip-path:url(#SVGID_4_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st12{clip-path:url(#SVGID_4_);}
+	.st13{fill:#FEFEFE;}
+	.st14{clip-path:url(#SVGID_8_);fill-rule:evenodd;clip-rule:evenodd;fill:#010201;}
+	.st15{clip-path:url(#SVGID_8_);}
+</style>
+<g id="Background">
+</g>
+<g id="Graphic_Elements">
+	<g>
+		<circle class="st0" cx="67.5" cy="67.5" r="67.5"/>
+		<g id="LOGO">
+			<g id="LOGO_12_">
+				<path class="st4" d="M35.59,50.85v46.49h-3.76c-2.92,0-5.31-2.39-5.31-5.31V44.61L35.59,50.85z"/>
+				<path class="st4" d="M108.48,44.61v47.42c0,2.92-2.39,5.31-5.31,5.31h-3.76l0-46.49L108.48,44.61z"/>
+				<path class="st5" d="M75.41,97.35c-5.94,0-33.88,0-39.82,0l23.76-17.31L75.41,97.35z"/>
+				<path class="st6" d="M99.41,51.14L67.5,74.1L35.59,51.14v-0.29L67.5,72.94l31.9-22.08L99.41,51.14z"/>
+				<path class="st7" d="M67.5,74.1l-8.14,5.93c-2.94-3.18-20.77-22.41-23.76-25.63v-3.26C39.06,53.64,63.98,71.57,67.5,74.1z"/>
+				<path class="st8" d="M59.36,80.03L35.59,97.35V54.4L59.36,80.03z"/>
+				<path class="st9" d="M99.41,51.14v46.2H75.41L59.36,80.03l8.14-5.93L99.41,51.14z"/>
+				<path class="st10" d="M104.27,37.67L67.5,61.9L30.94,37.66L104.27,37.67z"/>
+				<path class="st4" d="M108.48,44.61c-0.03,0.02-40.93,28.29-40.98,28.32c-0.03-0.02-40.95-28.3-40.98-28.32c0-0.03,0-2.3,0-2.26
+					c-0.14-3.72,4.06-6,7.11-3.89L67.5,61.9l33.86-23.44c3.06-2.12,7.25,0.18,7.11,3.89C108.48,42.38,108.48,44.64,108.48,44.61z"/>
+				<path class="st2" d="M35.59,50.85v3.55l-9.07-9.79L35.59,50.85z"/>
+				<path class="st2" d="M108.48,44.61l-9.07,9.79v-3.55L108.48,44.61z"/>
+			</g>
+			<g id="LIGHT_1_">
+				<defs>
+					<path id="SVGID_1_" d="M103.15,97.34H31.85c-2.94,0-5.32-2.38-5.32-5.32V42.14c0-2.48,2.01-4.48,4.48-4.48H104
+						c2.48,0,4.48,2.01,4.48,4.48v49.88C108.48,94.96,106.09,97.34,103.15,97.34z"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -17,7 +17,7 @@ class Main extends React.Component {
             <div >
                 <h2 className="major">Projects</h2>
             </div>
-            <Projects article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}/>
+            <Projects  onOpenArticle={this.props.onOpenArticle} article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}/>
             
         </Page>
         
@@ -26,9 +26,9 @@ class Main extends React.Component {
 
         <Page class="contact" page_name="contact" article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}>
             <h2 className="major">Contact</h2>
-            <p  style={{'line-hight':'1rem', 'margin-bottom':'0rem'}}> Do not hesitate to reach out if you have full-time positions, internship opportunities, or just want a simple chat.</p>
+            <p  style={{'line-hight':'1rem', 'margin-bottom':'0rem'}}> Please reach out if you have reasrch internship opportunities, or just want a simple chat.</p>
             <p style={{'margin-bottom':'2.5rem'}}>
-              Feel free to contact me via the form below or at <a href="mailto:mali18@ku.edu.tr">mali18@ku.edu.tr</a>
+              Feel free to contact me via the form below or at <a href="mailto:mh155@rice.edu">mh155@rice.edu</a>
             </p>
             <form target="transFrame" method="post" action='https://formspree.io/f/mgedkjno'>
                 <div className="field half first">

@@ -11,8 +11,8 @@ const Header = (props) => (
         </div>
         <nav>
         <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About Me</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Projects</a></li>
                 {/*<li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>*/}
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
@@ -20,10 +20,10 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Moayed Haji Ali</h1>
-                <p>Machine learning engineer, Bachelor of Computer Science at Koc University (Class of 2023)</p>
+                <p>Machine Learning Engineer, Computer Scince PhD student at Rice University </p>
             </div>
         </div>
-        <a href='#timeline' class='transition_title' style={{}}>Recent Activities</a>
+        <a href='#timeline' class='transition_title' style={{}}>What I have been up to?</a>
         <div class='news_line' id='timeline'> <TimeLine  style={{}}/> </div>
         
        

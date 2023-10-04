@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import TimeLine from "../components/mytimeline"
 
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -20,7 +21,7 @@ class IndexPage extends React.Component {
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
-    this.article_names = ['work', 'about', 'contact']
+    this.article_names = ['work', 'about', 'contact', 'research', 'technical']
   }
 
   componentDidMount () {
@@ -108,6 +109,7 @@ class IndexPage extends React.Component {
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
+              onOpenArticle={this.handleOpenArticle}
             />
             
             <Footer timeout={this.state.timeout} />

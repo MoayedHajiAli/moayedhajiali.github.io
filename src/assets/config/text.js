@@ -1,92 +1,126 @@
 
-export const profile_pic_url = 'static/images/profile.png'
-export const email_address = "mali18@ku.edu.tr"
-export const resume_url = 'static/docs/resume.pdf'
+export const profile_pic_url = 'images/profile.png'
+export const email_address = "mh155@rice.edu"
+export const resume_url = 'docs/resume.pdf'
+// import { Link } from "gatsby"
 
 export const achievements = [
-    {title: "Huawei Koc university mobile development competition (ranked 1st)",
+    {title: "Huawei Koc university mobile development competition (ranked <strong>1<sup>st</sup></strong>)",
     year: 2021},
     {title: "Project of the year award in software engineering analysis and design course",
     year: 2020},
 
-    {title: "Top 100 worldwide in IEEEXtreme Programming Contest (ranked 2ed in Turkey).",
+    {title: "Top 100 worldwide in IEEEXtreme Programming Contest (ranked <strong>2<sup>nd</sup></strong> in Turkey).",
     year: 2019},
 
-    {title: "Damascus ACM College Programing Contest (ranked 1st for two years).",
+    {title: "Damascus ACM College Programing Contest (ranked <strong>1<sup>st</sup></strong> for two years).",
     year: "2015 & 2016"},
 
     {title: "Honorable mention in Asia-Pacific Olympiad of Informatics (APIO)",
     year: 2016},
     
 ]
+
+export const publications = [
+  {title: "\"VidStyleODE: Disentangled Video Editing via StyleGAN and NeuralODEs\"",
+  authors: "<strong> M. Haji Ali </strong>, A. Bond, T. Birdal, D. Ceylan, L. Karacan, E. Erdem, and A. Erdem",
+  status : "Published at", 
+  conference : "ICCV",
+  year: 2023},
+  {title: "\"Opera: Scalable Simulator for Distributed Systems\" [Demo Paper]",
+  authors: "Y. H. Nazarabadi, <strong> M. Haji Ali </strong>, and N. Nayal",
+  status : "Published at", 
+  conference : "IEEE INFOCOMP",
+  year: 2021},
+]
+
 export const news = [
+  {
+    title: "Joining Rice University",
+    date: "August 2023",
+    description: [
+      "I am happy to start my PhD journey at Rice University under the supervision of Prof. <a href='https://vislang.ai/'>Vicente Roman</a>"]
+  },
+
+  {
+    title: "Paper Acepted at ICCV 2023",
+    date: "July 2023",
+    description: [
+      " Our paper <a href:'https://cyberiada.github.io/VidStyleODE/'>VidStyleODE</a> has been accepted at ICCV 2023"]
+  },
+
+  {
+    title: "Joining CareX",
+    date: "April 2023",
+    description: [
+      " I joined CareX to work on blood pressure estimation from videos"]
+  },
+
   {
     title: "Participating at HashCode 2022",
     date: "February 2022",
     description: [
-      "I am very excited to participate in <a href:'https://codingcompetitions.withgoogle.com/hashcode/'>HashCode 2022</a>. The qualification round starts on February 24th"
+      "I am excited to participate in <a href:'https://codingcompetitions.withgoogle.com/hashcode/'>HashCode 2022</a>."
     ]
   },
   {
-    title: "Teaching assistant at COMP 547 Deep Unsupervised Learning",
+    title: "Joining a Teaching Assistant Position",
     date: "February 2022",
     description: [
       "I joined as an undergraduate teaching assistant of <a href='https://aykuterdem.github.io/classes/comp547/'> COMP 547 Deep Unsupervised Learning </a> for spring 2022."
     ]
   },
-  {
-    title: "Left my part-time job at Hospital on Mobile",
-    date: "January 2022",
-    description: [
-      " I left my part-time job at Hospital on Mobile to focus more on my current research project on Text-Guided Image Manipulation"]
-  },
 ]
 export const experience = [
   {
-    title : "KUIS AI LAB Research Intern",
+    title : "KUIS AI LAB Computer Vision Research Intern",
     location: "Istanbul, Turkey",
     subtitle: "“Text-guided image manipulation”. (Supervised by Prof. Aykut Erdem)",
-    date: "July 2021 - Present",
+    date: "July 2021 - July 2023",
     description: [
-      "Working on an ongoing research on text-guided image manipulation using a novel approach based on vectorquantized variational auto-encoders and transformers.",
+      "Leading an ongoing project on unsupervised disentangled image representation using multimodal neural networks.",
+      "Lead a research project on video modeling and manipulation using StyleGAN2 and Latent ODEs.",
+      "Implemented using Pytorch a baseline for text-guided image manipulation based on CLIP and TokenGAN"
     ],
   },
   {
-    title: "Hospital on Mobile",
-    subtitle: "Remote Part-Time Machine Learning Engineer",
-    date: "Feb 2021 - Jan 2022",
+    title: "Remote Part-Time Machine Learning Engineer at CareX",
+    subtitle: "“Body vitals estimation from fignertip and face videos”",
+    date: "Feb 2021 - Jan 2022, April 2023 - Aug 2023",
     location: "California, USA",
     description: [
-      "Implemented a Pytorch and Tensorflow framework interface for integrating, training, and visualizing deep learning architectures, which was used by the AI research team.",
-      "Contributed to the state-of-the-art results on Blood Pressure estimation from PPG signals by applying recent deep learning architectures with novel extensions, implemented in Python based on Tensorflow framework.",
-      "Worked on an algorithmic-based approach for extracting HRV measurements from fingertip videos, which was deployed in the Hospital On Mobile application API"
+      "Implemented a Pytorch and Tensorflow framework interface for integrating, training, and visualizing deep learning models",
+      "Developed a reliable AI-based method for blood pressure estimation from fingertip videos",
+      "Contributed to HRV estimation from fingertip videos technology, which was deployed in CareX’s SDK"
     ],
   },
   {
     title: "IUI LAB Resarch Intern",
     location: "Istanbul, Turkey",
-    subtitle: "“Automated feedback for sketch-based questions”. (Supervised by Prof. Metin Sezgin)",
+    subtitle: "“Automated feedback for school assignements” (Supervised by Prof. Metin Sezgin)",
     date: "May 2020 - June 2021",
     description: [
-      "Designed and implemented an unsupervised feedback system for sketch-based questions based on sketch objectlevel semantic segmentation, and object to object alignment, inspired by image registration.",
+      "Designed and implemented an unsupervised in Tensorflow a feedback system for sketch-based questions based on a novel transformer-based architecture",
     ],
   },
 ]
 
 export const indep_projects = [
+
   {
-    title : "Video Continuous Implicit Representation: ",
+    title : "Coolingo: ",
+    subtitle: "An Android bot for teaching children English interactively",
+    description: [
+      "Developed a video chat-bot that combines several SOTA models effectively: BlenderBot 2.0, Google T5, MakeItTalk, FastSpeech2.0, and GPT3",
+      "Deployed AI models on AWS lambda, EC2 instance, and a local server"
+    ],
+  },
+
+  {
+    title : "Video Continuous Implicit Representation ",
     subtitle: "",
     description: [
       "As a part of “advances in deep learning” course project, I implemented a new architecture using Pytorch for representing videos as an implicit function parameterized by a transformer architecture.",
-    ],
-  },
-  {
-    title : "Opera: ",
-    subtitle: "An easy to integrate and research-oriented distributed network simulator",
-    description: [
-      "Integrated TCP, UDP, JavaRMI, and a mock network underlay, and implemented the simulator overlay.",
-      "Published at IEEE INFOCOM 2021 conference"
     ],
   },
   {
@@ -112,21 +146,45 @@ export const indep_projects = [
 // TODO Add a couple lines about each projectexport 
 export const projects = [
   {
-    title: 'Text-Guided Image Manipulation',
-    link: 'https://ai.ku.edu.tr/',
-    image: 'static/images/image-manipulation.png',
-    date: 'July 2021 - Present',
-    relevantSkills : ["Research", "Pytohn", "Pytoch", "Generative models", "Deep Unsupervised Learning"],
+    title: 'VidStyleODE: Disentangled Video Editing via StyleGAN and NeuralODEs',
+    link: 'https://cyberiada.github.io/VidStyleODE/',
+    image: 'figs/vidstyleode_teaser.jpg',
+    date: 'July 2022 - Nov 2022',
+    relevantSkills : ["Research", "PyTorch", "Generative Models", "Representation Learning"],
     desc:
-      "In this ongoing research project at <a href='https://ai.ku.edu.tr/'>KUIS AI LAB</a> under the supervision of <a href='https://aykuterdem.github.io/'> Prof. Aykut Erdem</a>, I am working on performing image manipulation guided by a given textual description." +
-      " The shared image is a preliminary result of image manipulation by moving in the feature space. The project codebase will be shared after publishing the work."
+      "During my internship at <a href='https://ai.ku.edu.tr/'>KUIS AI LAB</a>, I worked as the primary author on developing a novel framework for modeling videos using a pre-trained image generator's and a learned latent ODE, enabling a range of applications with high-resolution videos \
+       such as image animation, guided motion and appearance manipulation, and temporal interpolation and extrapolation. This work was accepted to ICCV 2023. For more details, see the <a href='https://cyberiada.github.io/VidStyleODE/' target='_blank'>project page</a>"
+  },
+
+  {
+    title: 'CooLingo: AI-powered Application for Interactive Language Learning',
+    link: '#',
+    image: 'figs/CooLingo.jpg',
+    date: 'Feb 2022 - June 2022',
+    relevantSkills : ["Andriod", "AI", "MLOps"],
+    desc:
+      "For my graduation project, I collaborated with my peers to develop a video chatbot Android application\
+       that incorporates cutting-edge AI models to offer a tailored and interactive language-learning experience.\
+      I am now volunteering with the <a href ='https://linguisticsjusticeleague.org'>Linguistics Justice League </a> to scale our application \
+      and deliver it to refugee and immigrant youth living in the United States."
+  },
+
+  {
+    title: 'Language-Guided Represetnation for Image Editting',
+    link: 'https://ai.ku.edu.tr/',
+    image: 'images/image-manipulation.png',
+    date: 'July 2021 - Present',
+    relevantSkills : ["Research", "PyTorch", "Generative Models", "Multimodal Representation Learning"],
+    desc:
+      "In this ongoing research project at <a href='https://ai.ku.edu.tr/'>KUIS AI LAB</a> under the supervision of <a href='https://aykuterdem.github.io/'> Prof. Aykut Erdem</a>, I am investigating how language can be used to learn an image representation that will facilitate more natural image editing." +
+      "The project is in its final stage and planned to be submitted in March 2023"
   },
   {
-    title: 'self-supervised Feedback System',
+    title: 'Self-Supervised Feedback System',
     link: 'https://github.com/MoayedHajiAli/Sketch-Feedback-System',
-    image: 'static/images/sketch.gif',
+    image: 'images/sketch.gif',
     date: 'May 2020 - July 2021',
-    relevantSkills : ["Research", "Python", "Deep learning", "Clustering algorithms", "self-supervised learning"],
+    relevantSkills : ["Research", "Python", "Deep learning", "Clustering algorithms", "Self-supervised learning"],
     desc:
     "During my research internship at the <a href='https://iui.ku.edu.tr'>IUI LAB</a>, I worked under the supervision of " +
     "<a href='https://iui.ku.edu.tr/people/'>Prof. Metin Sezgin</a> on designing a self-supervised feedback system for sketch-based open-ended questions."
@@ -136,7 +194,7 @@ export const projects = [
 
   {
     title: 'Opera: Distributed Systems Simulator',
-    image: 'static/images/dashboard_sample.png',
+    image: 'images/dashboard_sample.png',
     link: 'https://github.com/MoayedHajiAli/Opera',
     date: 'May 2020 - March 2021',
     relevantSkills : ["Software Engineering", "Java", "Computer networking", "Docker"],
@@ -148,7 +206,7 @@ export const projects = [
   {
     title: 'KuViD 2021: The winner of Best Software engineering & desing course project',
     link: 'https://github.com/MoayedHajiAli/KUvid-302',
-    image: 'static/images/game.gif',
+    image: 'images/game.gif',
     date: 'Sep 2020 - Jan 2021',
     relevantSkills : ["Software Engineering", "Java", "Design patterns"],
     desc:
@@ -158,8 +216,8 @@ export const projects = [
   },
 
   {
-    title: 'HuaweiQA: Huawei androind development competition winner',
-    image: 'static/images/huawei.gif',
+    title: 'HuaweiQA: Huawei Androind Development Competition Winner',
+    image: 'images/huawei.gif',
     link: 'https://github.com/MoayedHajiAli/HuaweiQA',
     date: 'Nov 2020 - Dec 2020',
     relevantSkills : ["Software Engineering", "Java", "Android Development"],

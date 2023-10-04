@@ -3,7 +3,8 @@ import React from 'react'
 import { Paper } from '@material-ui/core'
 import Social from './social'
 import DownloadButton from './downloadButton'
-import {profile_pic_url, resume_url, email_address, achievements, experience, indep_projects } from "../assets/config/text"
+import {profile_pic_url, resume_url, email_address, achievements, experience, indep_projects, publications} from "../assets/config/text"
+import parse from 'html-react-parser'
 
 const AboutMeCard = () => {
   const emailTo = `mailto:${email_address}`
@@ -17,7 +18,7 @@ const AboutMeCard = () => {
         
         <div class= "additionalSection">
           <DownloadButton href={resume_url} class="button" blog="false"> 
-          <b>Download CV</b> 
+          <b>Full Résumé</b> 
           </DownloadButton>
           {/* <a href={cvFile} target="_blank" rel="noopener noreferrer" class="button">Open CV</a> */}
         </div>
@@ -31,24 +32,44 @@ const AboutMeCard = () => {
           <div class="aboutMeInfoDescription">
             <p class="title"> Education</p>
             <hr/>
+
+            <p style={{"text-align":"left", "float":'left'}}>Rice University</p>
+            <p style={{"text-align":"right",}}>Houston, TX</p>
+            <i style={{"text-align":"right", "clear":'both'}}>PhD in Computer Scinece</i>
+            <br/>
             <p style={{"text-align":"left", "float":'left'}}>Koc University</p>
             <p style={{"text-align":"right",}}>Istanbul, Turkey</p>
             <i style={{"text-align":"right", "clear":'both'}}>Bachelor in Computer Engineering</i>
             <ul>
-              <li><b>CGPA: 3.97</b> out of <b>4.0</b> (Full merit-based scholarship from Al-Ghurair Foundation for Education).</li>
-              <li> <b>Relevant Coursework:</b> Advances in Deep Learning, Deep Unsupervised Learning, Deep Learning and Computer
+              Ranked <strong>3<sup>rd</sup></strong> in the Computer Scinece department
+              <br/>
+              <b>CGPA: 3.96</b> out of <b>4.0</b> (Full merit-based scholarship from Al-Ghurair Foundation for Education). <br/>
+               <b>Relevant Coursework:</b> Autonomous Driving, Advances in Deep Learning, Deep Unsupervised Learning, Deep Learning and Computer
 Vision, Introduction to Machine Learning, Natural Language Processing, Algorithms and Complexity, Data
-Structure & Algorithms, and Software Engineering Analysis and Design.</li>
-              <li> <b>Work Experience:</b> Undergraduate TA in advanced programming in JAVA, and peer-to-peer programming tutor.</li>
+Structure & Algorithms, and Software Engineering Analysis and Design. <br/>
+               <b>Teaching Experience:</b> Deep unsupervised learning, Advanced rogramming in JAVA, and Introduction to Prorgamming.
             </ul>
-            
-            <p class="title"> Achievements</p>
+
+            <p class="title"> Publications</p>
+            <hr/>
+            <ul style={{"clear":"both"}}>
+              {
+                publications.map(el => 
+                  <>
+                    <p style={{"text-align":"left", "float":'left'}}>{parse(el.authors)} {el.title} {el.status} <strong>{el.conference} {el.year} </strong></p>
+                    {/* <p style={{"text-align":"right",}}><br/></p> */}
+                  </>
+                )
+              }
+            </ul>
+            {/* <br/><br/> */}
+            <p class="title"  style={{"clear":"both", "padding-top":"1rem"}}> Achievements</p>
             <hr/>
             <ul>
               {
                 achievements.map(achievements => 
                   <>
-                    <p style={{"text-align":"left", "float":'left'}}>{achievements.title}</p>
+                    <p style={{"text-align":"left", "float":'left'}}>{parse(achievements.title)}</p>
                     <p style={{"text-align":"right",}}>{achievements.year}</p>
                   </>
                 )

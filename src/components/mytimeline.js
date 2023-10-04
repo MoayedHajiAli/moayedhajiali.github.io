@@ -13,7 +13,7 @@ const TimeLine = (props) => {
                     dateText={item.date}
                     dateStyle = {{width:'50%'}}
                     >
-                    <h3 style={{'font-size':'1.2rem'}}>{item.title}</h3>
+                    <h3 style={{'font-size':'1.2rem', 'text-transform':'none'}}>{item.title}</h3>
                     <ul style={{'font-size':'1.1rem'}}>
                         <div dangerouslySetInnerHTML={{__html: item.description}}></div>
                     </ul>

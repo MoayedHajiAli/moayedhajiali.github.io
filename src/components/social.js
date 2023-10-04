@@ -3,24 +3,24 @@ import React from 'react'
 const links = [
   {
     id: 'gmail',
-    href: 'mailto:mali18@ku.edu.tr',
-    url: 'static/icons/gmail.svg'
+    href: 'mailto:mh155@rice.edu',
+    url: 'icons/gmail.svg'
   },
   {
     id: 'github',
     href: 'https://github.com/MoayedHajiAli',
-    url: 'static/icons/github.svg'
+    url: 'icons/github.svg'
   },
   {
     id: 'linkedin',
     href: 'https://www.linkedin.com/in/moayedhajiali/',
-    url: 'static/icons/linkedin.svg'
+    url: 'icons/linkedin.svg'
 
   },
   {
     id: 'codeforces',
     href: 'https://codeforces.com/profile/ReginaFelangi',
-    url: 'static/icons/codeforces.svg'
+    url: 'icons/codeforces.svg'
   },
 ]
 
