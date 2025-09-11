@@ -35,6 +35,34 @@ My research interests focus on **image, video, and audio generation** and **cros
 - *2023.08*: &nbsp;🚀 Started PhD journey at Rice University under Prof. Vicente Ordonez
 - *2023.06*: &nbsp;🚀 Graduated from Koc University, third in my department.
 
+
+
+# 📝 Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/dfm.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Improving Progressive Generation with Decomposable Flow Matching](https://snap-research.github.io/dfm/)
+
+**Moayed Haji-Ali**, Willi Menapace, Ivan Skorokhodov, Arpit Sahni, Sergey Tulyakov, Vicente Ordonez, Aliaksandr Siarohin
+
+[**Project**](https://snap-research.github.io/dfm/) | [**arXiv**](https://arxiv.org/abs/2506.19839) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:DFM'></span></strong>
+- Framework for progressive generation of visual media, improving visual quality for both images and videos through decomposable flow matching.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><video width="100%" autoplay loop muted><source src="assets/teasers/genau.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Taming Data and Transformers for Audio Generation](https://snap-research.github.io/GenAU/)
+
+**Moayed Haji-Ali**, Willi Menapace, Aliaksandr Siarohin, Guha Balakrishnan, Sergey Tulyakov, Vicente Ordonez
+
+[**Project**](https://snap-research.github.io/GenAU/) | [**arXiv**](https://arxiv.org/abs/2406.19388) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:GenAU'></span></strong>
+- Introduces AutoCap for automatic audio captioning and GenAu architecture for scalable transformer-based audio generation.
+</div>
+</div>
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/avlink.mp4" type="video/mp4"></video></div></div>
@@ -78,31 +106,6 @@ My research interests focus on **image, video, and audio generation** and **cros
 - Yehya Hassanzadeh-Nazarabadi, **Moayed Haji Ali**, Nazir Nayal "Opera: Scalable Simulator for Distributed Systems" **IEEE INFOCOM 2021**
 
 
-# 📝 Preprints
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/dfm.mp4" type="video/mp4"></video></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Improving Progressive Generation with Decomposable Flow Matching](https://snap-research.github.io/dfm/)
-
-**Moayed Haji-Ali**, Willi Menapace, Ivan Skorokhodov, Arpit Sahni, Sergey Tulyakov, Vicente Ordonez, Aliaksandr Siarohin
-
-[**Project**](https://snap-research.github.io/dfm/) | [**arXiv**](https://arxiv.org/abs/2506.19839) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:DFM'></span></strong>
-- Framework for progressive generation of visual media, improving visual quality for both images and videos through decomposable flow matching.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/genau.mp4" type="video/mp4"></video></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Taming Data and Transformers for Audio Generation](https://snap-research.github.io/GenAU/)
-
-**Moayed Haji-Ali**, Willi Menapace, Aliaksandr Siarohin, Guha Balakrishnan, Sergey Tulyakov, Vicente Ordonez
-
-[**Project**](https://snap-research.github.io/GenAU/) | [**arXiv**](https://arxiv.org/abs/2406.19388) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:GenAU'></span></strong>
-- Introduces AutoCap for automatic audio captioning and GenAu architecture for scalable transformer-based audio generation.
-</div>
-</div>
 
 
 
