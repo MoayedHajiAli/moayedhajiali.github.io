@@ -23,7 +23,8 @@ My research interests focus on **image, video, and audio generation** and **cros
 
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 **[CFred](https://arxiv.org/abs/2503.21721)** was accepted at **WACV 2025**
+- *2025.09*: &nbsp;🎉🎉 **[DFM](https://snap-research.github.io/dfm/)** was accepted at **NeurIPS 2025**
+- *2025.09*: &nbsp;🎉🎉 **[CFred](https://arxiv.org/abs/2503.21721)** was accepted at **WACV 2026**
 - *2025.06*: &nbsp;📄 [New Work] **[DFM](https://snap-research.github.io/dfm/)** published on [arXiv](https://arxiv.org/abs/2506.19839)
 - *2025.06*: &nbsp;🎉🎉 **[AV-LINK](https://snap-research.github.io/AVLink/)** was accepted at **ICCV 2025**
 - *2024.12*: &nbsp;📄 [New Work] **[AV-LINK](https://snap-research.github.io/AVLink/)** published on [arXiv](https://arxiv.org/abs/2412.15191)
@@ -39,17 +40,7 @@ My research interests focus on **image, video, and audio generation** and **cros
 
 # 📝 Preprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/dfm.mp4" type="video/mp4"></video></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Improving Progressive Generation with Decomposable Flow Matching](https://snap-research.github.io/dfm/)
-
-**Moayed Haji-Ali**, Willi Menapace, Ivan Skorokhodov, Arpit Sahni, Sergey Tulyakov, Vicente Ordonez, Aliaksandr Siarohin
-
-[**Project**](https://snap-research.github.io/dfm/) | [**arXiv**](https://arxiv.org/abs/2506.19839) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:DFM'></span></strong>
-- Framework for progressive generation of visual media, improving visual quality for both images and videos through decomposable flow matching.
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><video width="100%" autoplay loop muted><source src="assets/teasers/genau.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
@@ -64,6 +55,18 @@ My research interests focus on **image, video, and audio generation** and **cros
 </div>
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/dfm.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Improving Progressive Generation with Decomposable Flow Matching](https://snap-research.github.io/dfm/)
+
+**Moayed Haji-Ali**, Willi Menapace, Ivan Skorokhodov, Arpit Sahni, Sergey Tulyakov, Vicente Ordonez, Aliaksandr Siarohin
+
+[**Project**](https://snap-research.github.io/dfm/) | [**arXiv**](https://arxiv.org/abs/2506.19839) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:DFM'></span></strong>
+- Framework for progressive generation of visual media, improving visual quality for both images and videos through decomposable flow matching.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/avlink.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
@@ -96,7 +99,7 @@ My research interests focus on **image, video, and audio generation** and **cros
 
 **Moayed Haji Ali**, A. Bond, T. Birdal, D. Ceylan, L. Karacan, E. Erdem, A. Erdem
 
-[**Project**](https://cyberiada.github.io/VidStyleODE/) | [**arXiv**](https://arxiv.org/abs/2304.09770) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:UeHWp8X0CEIC'></span></strong>
+[**Project**](https://cyberiada.github.io/VidStyleODE/) | [**arXiv**](https://arxiv.org/abs/2304.06020) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:UeHWp8X0CEIC'></span></strong>
 - A novel framework for modeling videos using pre-trained image generators and learned latent ODEs, enabling high-resolution video editing applications including image animation, guided motion and appearance manipulation, and temporal interpolation.
 </div>
 </div>
