@@ -23,6 +23,10 @@ My research interests focus on **image, video, and audio generation** and **cros
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 **[Omni-Attribute](https://snap-research.github.io/omni-attribute/)** was accepted at **CVPR 2026**
+- *2026.02*: &nbsp;🎉🎉 **[EgoEdit](https://snap-research.github.io/EgoEdit/)** was accepted at **CVPR 2026**
+- *2026.02*: &nbsp;🎉🎉 **[ELIT](https://snap-research.github.io/elit/)** was accepted at **CVPR 2026**
+- *2026.01*: &nbsp;🎉🎉 **[Sprint](https://arxiv.org/abs/2510.21986)** was accepted at **ICLR 2026**
 - *2025.09*: &nbsp;🎉🎉 **[DFM](https://snap-research.github.io/dfm/)** was accepted at **NeurIPS 2025**
 - *2025.09*: &nbsp;🎉🎉 **[CFred](https://arxiv.org/abs/2503.21721)** was accepted at **WACV 2026**
 - *2025.06*: &nbsp;📄 [New Work] **[DFM](https://snap-research.github.io/dfm/)** published on [arXiv](https://arxiv.org/abs/2506.19839)
@@ -38,11 +42,72 @@ My research interests focus on **image, video, and audio generation** and **cros
 
 
 
-# 📝 Preprints
+<!-- # 📝 Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/500x300.png' alt="NoiseShift" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generation](https://arxiv.org/abs/2510.02307)
+
+Ruozhen He, **Moayed Haji-Ali**, Ziyan Yang, Vicente Ordonez
+
+[**arXiv**](https://arxiv.org/abs/2510.02307) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:YsMSGLbcyi4C'></span></strong>
+- A training-free method that recalibrates noise levels conditioned on resolution size, significantly improving low-resolution image generation quality in existing diffusion models like SD3, SD3.5, and Flux-Dev.
+</div>
+</div> -->
+
+# 📝 Publications 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='assets/teasers/elit.png' alt="ELIT" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><video width="100%" autoplay loop muted><source src="assets/teasers/genau.mp4" type="video/mp4"></video></div></div>
+[One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers](https://snap-research.github.io/elit/)
+
+**Moayed Haji-Ali**, Willi Menapace, Ivan Skorokhodov, Dogyun Park, Anil Kag, Michael Vasilkovsky,  Sergey Tulyakov, Vicente Ordonez, Aliaksandr Siarohin
+
+[**Project**](https://snap-research.github.io/elit/) | [**arXiv**](https://arxiv.org/abs/2603.12245) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:Se3iqnhoufwC'></span></strong>
+- A drop-in DiT-compatible mechanism that decouples input image size from compute via a learnable variable-length latent interface, enabling dynamic latency-quality trade-offs at inference time.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><video width="100%" autoplay loop muted><source src="assets/teasers/omni_attribute_teaser.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization](https://snap-research.github.io/omni-attribute/)
+
+Tsai-Shien Chen, Aliaksandr Siarohin, Guocheng Gordon Qian, Kuan-Chieh Jackson Wang, Egor Nemchinov, **Moayed Haji-Ali**, Riza Alp Guler, Willi Menapace, Ivan Skorokhodov, Anil Kag, Jun-Yan Zhu, Sergey Tulyakov
+
+[**Project**](https://snap-research.github.io/omni-attribute/) | [**arXiv**](https://arxiv.org/abs/2512.10955) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:LkGwnXOMwfcC'></span></strong>
+- First open-vocabulary image attribute encoder that learns high-fidelity, attribute-specific representations for personalization and compositional generation.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><video width="100%" autoplay loop muted><source src="assets/teasers/ego_edit_teaser.mp4" type="video/mp4"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EgoEdit: Dataset, Real-Time Streaming Model, and Benchmark for Egocentric Video Editing](https://snap-research.github.io/EgoEdit/)
+
+Runjia Li, **Moayed Haji-Ali**, Ashkan Mirzaei, Chaoyang Wang, Arpit Sahni, Ivan Skorokhodov, Aliaksandr Siarohin, Tomas Jakab, Junlin Han, Sergey Tulyakov, Philip Torr, Willi Menapace
+
+[**Project**](https://snap-research.github.io/EgoEdit/) | [**arXiv**](https://arxiv.org/abs/2512.06065) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:_FxGoFyzp5QC'></span></strong>
+- A complete ecosystem for egocentric video editing featuring a curated dataset, a real-time streaming editor, and an evaluation benchmark for instruction-guided editing under egomotion.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='assets/teasers/sprint_teaser.png' alt="Sprint" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Sprint: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers](https://arxiv.org/abs/2510.21986)
+
+Dogyun Park, **Moayed Haji-Ali**, Yanyu Li, Willi Menapace, Sergey Tulyakov, Hyunwoo J. Kim, Aliaksandr Siarohin, Anil Kag
+
+[**arXiv**](https://arxiv.org/abs/2510.21986) <strong><span class='show_paper_citations' data='Ck-mSEwAAAAJ:eQOLeE2rZwMC'></span></strong>
+- Enables aggressive token dropping (up to 75%) in diffusion transformers while preserving quality through sparse-dense residual fusion, achieving 9.8x training savings.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV</div><video width="100%" autoplay loop muted><source src="assets/teasers/genau.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Taming Data and Transformers for Audio Generation](https://snap-research.github.io/GenAU/)
@@ -53,8 +118,6 @@ My research interests focus on **image, video, and audio generation** and **cros
 - Introduces AutoCap for automatic audio captioning and GenAu architecture for scalable transformer-based audio generation.
 </div>
 </div>
-
-# 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><video width="100%" autoplay loop muted><source src="assets/teasers/dfm.mp4" type="video/mp4"></video></div></div>
 <div class='paper-box-text' markdown="1">
